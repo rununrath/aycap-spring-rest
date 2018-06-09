@@ -7,7 +7,7 @@ metadata:
     app: aycap-spring-rest
     type: jenkins-build
 spec:
-  replicas: 1
+  replicas: 3
   strategy:
     type: RollingUpdate
     rollingUpdate:
