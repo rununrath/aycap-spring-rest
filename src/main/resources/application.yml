@@ -61,9 +61,9 @@ spring:
 
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: ${ AYCAP_JDBC_URL }
-    username: ${ AYCAP_DB_USER }
-    password: ${ AYCAP_DB_PASSWORD }
+    url: ${AYCAP_JDBC_URL}
+    username: ${AYCAP_DB_USER}
+    password: ${AYCAP_DB_PASSWORD}
 
   jpa:
     hibernate:
