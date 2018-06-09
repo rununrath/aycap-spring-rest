@@ -21,6 +21,14 @@ spec:
       containers:
       - name: aycap-spring-rest
         image: <%= new_image %>
+        env:
+          - name: AYCAP_JDBC_URL
+            value: jdbc:mysql://aycap-mysql/hotel
+          - name: AYCAP_DB_USER
+            value: root
+          - name: AYCAP_DB_PASSWORD
+            value: aycap_mysql_password
+
         livenessProbe:
           initialDelaySeconds: 45
           periodSeconds: 15
