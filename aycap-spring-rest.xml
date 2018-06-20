@@ -37,8 +37,7 @@
       <configVersion>2</configVersion>
       <userRemoteConfigs>
         <hudson.plugins.git.UserRemoteConfig>
-          <url>http://aycap-gitlab-gitlab-ce/aycap/aycap-spring-rest.git</url>
-          <credentialsId>gitlab-aycap-password</credentialsId>
+          <url>https://github.com/rununrath/aycap-spring-rest.git</url>
         </hudson.plugins.git.UserRemoteConfig>
       </userRemoteConfigs>
       <branches>
